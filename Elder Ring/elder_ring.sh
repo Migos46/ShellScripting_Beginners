@@ -32,7 +32,8 @@ echo "You have chosen $type class. Your HP is $hp and your attack is $attack"
 echo "You die"
 
 # First beast battle
-# Using modulus to create random numbers from the divisor. This case 0 or 1
+# Using modulus to create random numbers from the divisor. This case 0 or 1.
+# See mathOperations script to understand math syntaxis
 
 beast=$(( $RANDOM % 2 ))
 
@@ -58,7 +59,9 @@ read tarnished
 beast=$(( $RANDOM % 10 ))
 # The second condition is to ilustrate an OR operation within an if statement
 if [[ $beast == $tarnished || $tarnished == "coffee" ]]; then
-        if [[ $USER == "parallels" ]]; then
+	echo "What is your user?/n HINT: you can start another terminal session and use echo $USER to guess it"
+	read inUser
+	if [[ $USER == inUser ]]; then
 		echo "Congrats $USER, Beast vanquished"
 	else
 		echo "You are not user: $USER"
@@ -66,5 +69,5 @@ if [[ $beast == $tarnished || $tarnished == "coffee" ]]; then
 elif [[ $USER == "bernard" ]]; then
 	echo "Hey, $USER always wins. You vanquished beast."
 else
-        echo "You die"
+	echo "You die"
 fi
