@@ -17,14 +17,14 @@ case $class in
 		;;
 	2)
 		type="Prisioner"
-                hp=20
-                attack=4
-                ;;
+		hp=20
+		attack=4
+		;;
 	3)
 		type="Prophet"
-                hp=30
-                attack=4
-                ;;
+		hp=30
+		attack=4
+		;;
 esac
 
 echo "You have chosen $type class. Your HP is $hp and your attack is $attack"
@@ -32,12 +32,15 @@ echo "You have chosen $type class. Your HP is $hp and your attack is $attack"
 echo "You die"
 
 # First beast battle
+# Using modulus to create random numbers from the divisor. This case 0 or 1
+
 beast=$(( $RANDOM % 2 ))
 
 echo "Your first beast approaches. Prepare to battle. Pick a number between 0-1. (0/1)"
 
 read tarnished
 
+# The second condition is to ilustrate an AND operation within an if statement
 if [[ $beast == $tarnished && 47 > 27 ]]; then
 	echo "Beast VANQUISED!! Congrats fellow tarnished"
 else
@@ -51,8 +54,9 @@ echo "Boss battle. Get started. It's Margit. Pick a number between 0-9"
 
 read tarnished
 
+# Using modulus to create random numbers from the divisor. This case 0 to 9
 beast=$(( $RANDOM % 10 ))
-
+# The second condition is to ilustrate an OR operation within an if statement
 if [[ $beast == $tarnished || $tarnished == "coffee" ]]; then
         if [[ $USER == "parallels" ]]; then
 		echo "Congrats $USER, Beast vanquished"
