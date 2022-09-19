@@ -59,9 +59,9 @@ read tarnished
 beast=$(( $RANDOM % 10 ))
 # The second condition is to ilustrate an OR operation within an if statement
 if [[ $beast == $tarnished || $tarnished == "coffee" ]]; then
-	echo "What is your user?/n HINT: you can start another terminal session and use echo $USER to guess it"
+	echo "What is your user?\nHINT: you can start another terminal session and use echo $ followed by USER to guess it"
 	read inUser
-	if [[ $USER == inUser ]]; then
+	if [[ $USER == $inUser ]]; then
 		echo "Congrats $USER, Beast vanquished"
 	else
 		echo "You are not user: $USER"
