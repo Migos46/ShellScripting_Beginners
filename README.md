@@ -15,3 +15,5 @@ The **important** part is the beginning part where the permissions for the file 
 This command change the `user` (`u`) permissions on the file making it executable `+x`. And the output should be something like:  
 `-rwxr--r--  ... ... elder_ring.sh`  
 Where the execute permissions is added, `x` appears now in the output of the `$ ls` command.  
+  
+Also note that all the spaces are created to give more visual clarity for reading the code.
