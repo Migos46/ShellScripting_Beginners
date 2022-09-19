@@ -57,7 +57,9 @@ read tarnished
 
 # Using modulus to create random numbers from the divisor. This case 0 to 9
 beast=$(( $RANDOM % 10 ))
+
 # The second condition is to ilustrate an OR operation within an if statement
+# Also you can use it to as a scape word to win the battle, ;)
 if [[ $beast == $tarnished || $tarnished == "coffee" ]]; then
 	echo "What is your user?\nHINT: you can start another terminal session and use echo $ followed by USER to guess it"
 	read inUser
