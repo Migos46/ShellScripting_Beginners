@@ -3,7 +3,7 @@ Basically, the `login shell` is just there to take a list of commands and run th
   
 To test if a shell is a login shell or not just run the following script:  
 ```terminal
-#/bin/zsh
+#!/bin/zsh
 if [[ -o login && -o interactive ]]; then
 	echo "This is an interactive login shell"
 elif [[ -o interactive ]]; then
@@ -37,6 +37,7 @@ To get the value stored in a parameter, which is called ***parameter expansion**
 Arrays, like in other programming languages, ara variables that contain more than one value, i.e the foo array `foo=(bananna strawberry apple)` contains three parameters which are three different fruits.
 To get a specific possition in the array:
 - `${foo[3]}` will output `apple`becuase arrays start with the ***index*** 1, unlikely c programmers that are used to start with ***index*** 0
+- `zsh`allows to refer elements of array without curly brackets like `$foo[1]`
 >***TIP:***
 >To iterate over an array, one can use a for loop like in the script example:
 >```terminal  
