@@ -34,10 +34,10 @@ Parameters are mostly kwown as variables in other programming languages. To assi
   
 To get the value stored in a parameter, which is called ***parameter expansion***, a `$`sign must be type in front of the parameter name `$foo`  
 # Arrays  
-Arrays, like in other programming languages, ara variables that contain more than one value, i.e the foo array `foo=(bananna strawberry apple)` contains three parameters which are three different fruits.
+Arrays, like in other programming languages, ara variables that contain more than one value, i.e the foo array `foo=(bananna strawberry apple)` contains three parameters which are three different fruits, each element of the array is separated with a `white space`.
 To get a specific possition in the array:
 - `${foo[3]}` will output `apple`becuase arrays start with the ***index*** 1, unlikely c programmers that are used to start with ***index*** 0
-- `zsh`allows to refer elements of array without curly brackets like `$foo[1]`
+- `zsh`allows to refer elements of array without curly brackets like `$foo[1]`, but if you are planing to deply scripts, better to use ***curly brackets*** not to get any arrors in other `shells`
 >***TIP:***
 >To iterate over an array, one can use a for loop like in the script example:
 >```terminal  
