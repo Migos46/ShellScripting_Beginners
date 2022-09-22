@@ -50,3 +50,22 @@ To get a specific possition in the array:
 >done  
 >```
 >Note that the array expands to types thanks to the `@`operator.  
+  
+# Functions  
+A function is declare  and define as follows:
+```terminal
+my_function() {
+    # this is a simple function
+    echo My name is $0
+}
+```  
+When using `zsh`, `$0` refers to the name of the function so the output when this function is called will be:
+`$ My name is my_function`  
+>Tip:
+> If you are using `zsh` and you have printed out `$0`outside of a function, you can get two options
+> 1. The output will be the name of the shell if you are running an interactive shell. Try this in your interactive shell and you will see something like the following:
+> `$ echo $0`
+> `$ /bin/zsh`
+> 2. The output will be the name of the file script when executed in another `zsh`instance  
+> `$ ./functions.sh` 
+> `$ $0 will expand to ./functions.sh
