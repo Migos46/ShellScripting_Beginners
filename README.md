@@ -1,6 +1,10 @@
 # README  
-- This `repo` is intended to gather sripts to use in your favourite terminal and have some fun while learning ***shell scripting***  
-- The content of this repo came from one of my favourites tech youtubers [NetworkChuck](https://www.youtube.com/c/NetworkChuck), please if you like his content follow him becuase he really does great stuff for beginners  
+This `repo` is intended to gather sripts to use in your favourite terminal and have some fun while learning ***shell scripting***  
+The content of this repo came from two of my favourites tech youtubers
+1. [NetworkChuck](https://www.youtube.com/c/NetworkChuck)
+2. [Jay LaCoix from LearnLinuxTV](https://www.learnlinux.tv)
+
+Please if you like his content follow them becuase they really do great stuff    
   
 ## Environment  
 ***`OS:`*** macOS Monterrey  
@@ -16,4 +20,12 @@ This command change the `user` (`u`) permissions on the file making it executabl
 `-rwxr--r--  ... ... elder_ring.sh`  
 Where the execute permissions is added, `x` appears now in the output of the `$ ls` command.  
   
-Also note that all the spaces are created to give more visual clarity for reading the code.
+Also note that all the spaces are created to give more visual clarity for reading the code.  
+
+# BIG THANKS to JAY LACROIX and LEARNLINUXTV  
+This repo is being done as I'm learning new things about `shell` scripting with [Jay LaCoix from LearnLinuxTV](https://www.learnlinux.tv).  
+Plese check him out there and also his [Patreon_Support](https://www.learnlinux.tv/support/) if you really feel like helping a bit more.
+
+Anyways, just enjoy and share knowledge!
+
+Do not hesitate to improve any content inside the explanations since I'm not great at explaining.
