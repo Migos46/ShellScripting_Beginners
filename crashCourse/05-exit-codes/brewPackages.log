@@ -1,0 +1,149 @@
+Uninstalling htop... (12 files, 329.0KB)
+==> Downloading https://ghcr.io/v2/homebrew/core/htop/manifests/3.2.1
+Already downloaded: /Users/mike/Library/Caches/Homebrew/downloads/8397a04eda5a455926f02cd65313a2db69d47e1ce3b1e15749b7f81eaa0e7a0e--htop-3.2.1.bottle_manifest.json
+==> Downloading https://ghcr.io/v2/homebrew/core/htop/blobs/sha256:13ede571c82f9ed6f55d8ef081bd7db0f11ca8945dc306594465384f38f693f4
+Already downloaded: /Users/mike/Library/Caches/Homebrew/downloads/1ed503fabc86626e31224aa3a029735f0b9873eda3a0fa5582e5429577cf05c6--htop--3.2.1.monterey.bottle.tar.gz
+==> Verifying checksum for '1ed503fabc86626e31224aa3a029735f0b9873eda3a0fa5582e5429577cf05c6--htop--3.2.1.monterey.bottle.tar.gz'
+==> Pouring htop--3.2.1.monterey.bottle.tar.gz
+==> Finishing up
+ln -s ../Cellar/htop/3.2.1/bin/htop htop
+mkdir -p /usr/local/share/applications
+ln -s ../../Cellar/htop/3.2.1/share/applications/htop.desktop htop.desktop
+mkdir -p /usr/local/share/icons
+mkdir -p /usr/local/share/icons/hicolor
+mkdir -p /usr/local/share/icons/hicolor/scalable
+mkdir -p /usr/local/share/icons/hicolor/scalable/apps
+ln -s ../../../../../Cellar/htop/3.2.1/share/icons/hicolor/scalable/apps/htop.svg htop.svg
+ln -s ../../../Cellar/htop/3.2.1/share/man/man1/htop.1 htop.1
+mkdir -p /usr/local/share/pixmaps
+ln -s ../../Cellar/htop/3.2.1/share/pixmaps/htop.png htop.png
+==> Caveats
+htop requires root privileges to correctly display all running processes,
+so you will need to run `sudo htop`.
+You should be certain that you trust any software you grant root privileges.
+==> Summary
+🍺  /usr/local/Cellar/htop/3.2.1: 12 files, 328.9KB
+==> Running `brew cleanup htop`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Uninstalling htop... (12 files, 329.0KB)
+==> Downloading https://ghcr.io/v2/homebrew/core/htop/manifests/3.2.1
+Already downloaded: /Users/mike/Library/Caches/Homebrew/downloads/8397a04eda5a455926f02cd65313a2db69d47e1ce3b1e15749b7f81eaa0e7a0e--htop-3.2.1.bottle_manifest.json
+==> Downloading https://ghcr.io/v2/homebrew/core/htop/blobs/sha256:13ede571c82f9ed6f55d8ef081bd7db0f11ca8945dc306594465384f38f693f4
+Already downloaded: /Users/mike/Library/Caches/Homebrew/downloads/1ed503fabc86626e31224aa3a029735f0b9873eda3a0fa5582e5429577cf05c6--htop--3.2.1.monterey.bottle.tar.gz
+==> Verifying checksum for '1ed503fabc86626e31224aa3a029735f0b9873eda3a0fa5582e5429577cf05c6--htop--3.2.1.monterey.bottle.tar.gz'
+==> Pouring htop--3.2.1.monterey.bottle.tar.gz
+==> Finishing up
+ln -s ../Cellar/htop/3.2.1/bin/htop htop
+mkdir -p /usr/local/share/applications
+ln -s ../../Cellar/htop/3.2.1/share/applications/htop.desktop htop.desktop
+mkdir -p /usr/local/share/icons
+mkdir -p /usr/local/share/icons/hicolor
+mkdir -p /usr/local/share/icons/hicolor/scalable
+mkdir -p /usr/local/share/icons/hicolor/scalable/apps
+ln -s ../../../../../Cellar/htop/3.2.1/share/icons/hicolor/scalable/apps/htop.svg htop.svg
+ln -s ../../../Cellar/htop/3.2.1/share/man/man1/htop.1 htop.1
+mkdir -p /usr/local/share/pixmaps
+ln -s ../../Cellar/htop/3.2.1/share/pixmaps/htop.png htop.png
+==> Caveats
+htop requires root privileges to correctly display all running processes,
+so you will need to run `sudo htop`.
+You should be certain that you trust any software you grant root privileges.
+==> Summary
+🍺  /usr/local/Cellar/htop/3.2.1: 12 files, 328.9KB
+==> Running `brew cleanup htop`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+------ Unistalling ------
+Uninstalling htop... (12 files, 329.0KB)
+------ uninstalled finished with code: 0
+------ Installing htop ------
+==> Downloading https://ghcr.io/v2/homebrew/core/htop/manifests/3.2.1
+Already downloaded: /Users/mike/Library/Caches/Homebrew/downloads/8397a04eda5a455926f02cd65313a2db69d47e1ce3b1e15749b7f81eaa0e7a0e--htop-3.2.1.bottle_manifest.json
+==> Downloading https://ghcr.io/v2/homebrew/core/htop/blobs/sha256:13ede571c82f9ed6f55d8ef081bd7db0f11ca8945dc306594465384f38f693f4
+Already downloaded: /Users/mike/Library/Caches/Homebrew/downloads/1ed503fabc86626e31224aa3a029735f0b9873eda3a0fa5582e5429577cf05c6--htop--3.2.1.monterey.bottle.tar.gz
+==> Verifying checksum for '1ed503fabc86626e31224aa3a029735f0b9873eda3a0fa5582e5429577cf05c6--htop--3.2.1.monterey.bottle.tar.gz'
+==> Pouring htop--3.2.1.monterey.bottle.tar.gz
+==> Finishing up
+ln -s ../Cellar/htop/3.2.1/bin/htop htop
+mkdir -p /usr/local/share/applications
+ln -s ../../Cellar/htop/3.2.1/share/applications/htop.desktop htop.desktop
+mkdir -p /usr/local/share/icons
+mkdir -p /usr/local/share/icons/hicolor
+mkdir -p /usr/local/share/icons/hicolor/scalable
+mkdir -p /usr/local/share/icons/hicolor/scalable/apps
+ln -s ../../../../../Cellar/htop/3.2.1/share/icons/hicolor/scalable/apps/htop.svg htop.svg
+ln -s ../../../Cellar/htop/3.2.1/share/man/man1/htop.1 htop.1
+mkdir -p /usr/local/share/pixmaps
+ln -s ../../Cellar/htop/3.2.1/share/pixmaps/htop.png htop.png
+==> Caveats
+htop requires root privileges to correctly display all running processes,
+so you will need to run `sudo htop`.
+You should be certain that you trust any software you grant root privileges.
+==> Summary
+🍺  /usr/local/Cellar/htop/3.2.1: 12 files, 328.9KB
+==> Running `brew cleanup htop`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+------ Unistalling ------
+Uninstalling htop... (12 files, 329.0KB)
+------ uninstalled finished with code: 0
+------ Installing htop ------
+==> Downloading https://ghcr.io/v2/homebrew/core/htop/manifests/3.2.1
+Already downloaded: /Users/mike/Library/Caches/Homebrew/downloads/8397a04eda5a455926f02cd65313a2db69d47e1ce3b1e15749b7f81eaa0e7a0e--htop-3.2.1.bottle_manifest.json
+==> Downloading https://ghcr.io/v2/homebrew/core/htop/blobs/sha256:13ede571c82f9ed6f55d8ef081bd7db0f11ca8945dc306594465384f38f693f4
+Already downloaded: /Users/mike/Library/Caches/Homebrew/downloads/1ed503fabc86626e31224aa3a029735f0b9873eda3a0fa5582e5429577cf05c6--htop--3.2.1.monterey.bottle.tar.gz
+==> Verifying checksum for '1ed503fabc86626e31224aa3a029735f0b9873eda3a0fa5582e5429577cf05c6--htop--3.2.1.monterey.bottle.tar.gz'
+==> Pouring htop--3.2.1.monterey.bottle.tar.gz
+==> Finishing up
+ln -s ../Cellar/htop/3.2.1/bin/htop htop
+mkdir -p /usr/local/share/applications
+ln -s ../../Cellar/htop/3.2.1/share/applications/htop.desktop htop.desktop
+mkdir -p /usr/local/share/icons
+mkdir -p /usr/local/share/icons/hicolor
+mkdir -p /usr/local/share/icons/hicolor/scalable
+mkdir -p /usr/local/share/icons/hicolor/scalable/apps
+ln -s ../../../../../Cellar/htop/3.2.1/share/icons/hicolor/scalable/apps/htop.svg htop.svg
+ln -s ../../../Cellar/htop/3.2.1/share/man/man1/htop.1 htop.1
+mkdir -p /usr/local/share/pixmaps
+ln -s ../../Cellar/htop/3.2.1/share/pixmaps/htop.png htop.png
+==> Caveats
+htop requires root privileges to correctly display all running processes,
+so you will need to run `sudo htop`.
+You should be certain that you trust any software you grant root privileges.
+==> Summary
+🍺  /usr/local/Cellar/htop/3.2.1: 12 files, 328.9KB
+==> Running `brew cleanup htop`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+------ Unistalling ------
+Uninstalling htop... (12 files, 329.0KB)
+------ uninstalled finished with code: 0
+------ Installing htop ------
+==> Downloading https://ghcr.io/v2/homebrew/core/htop/manifests/3.2.1
+Already downloaded: /Users/mike/Library/Caches/Homebrew/downloads/8397a04eda5a455926f02cd65313a2db69d47e1ce3b1e15749b7f81eaa0e7a0e--htop-3.2.1.bottle_manifest.json
+==> Downloading https://ghcr.io/v2/homebrew/core/htop/blobs/sha256:13ede571c82f9ed6f55d8ef081bd7db0f11ca8945dc306594465384f38f693f4
+Already downloaded: /Users/mike/Library/Caches/Homebrew/downloads/1ed503fabc86626e31224aa3a029735f0b9873eda3a0fa5582e5429577cf05c6--htop--3.2.1.monterey.bottle.tar.gz
+==> Verifying checksum for '1ed503fabc86626e31224aa3a029735f0b9873eda3a0fa5582e5429577cf05c6--htop--3.2.1.monterey.bottle.tar.gz'
+==> Pouring htop--3.2.1.monterey.bottle.tar.gz
+==> Finishing up
+ln -s ../Cellar/htop/3.2.1/bin/htop htop
+mkdir -p /usr/local/share/applications
+ln -s ../../Cellar/htop/3.2.1/share/applications/htop.desktop htop.desktop
+mkdir -p /usr/local/share/icons
+mkdir -p /usr/local/share/icons/hicolor
+mkdir -p /usr/local/share/icons/hicolor/scalable
+mkdir -p /usr/local/share/icons/hicolor/scalable/apps
+ln -s ../../../../../Cellar/htop/3.2.1/share/icons/hicolor/scalable/apps/htop.svg htop.svg
+ln -s ../../../Cellar/htop/3.2.1/share/man/man1/htop.1 htop.1
+mkdir -p /usr/local/share/pixmaps
+ln -s ../../Cellar/htop/3.2.1/share/pixmaps/htop.png htop.png
+==> Caveats
+htop requires root privileges to correctly display all running processes,
+so you will need to run `sudo htop`.
+You should be certain that you trust any software you grant root privileges.
+==> Summary
+🍺  /usr/local/Cellar/htop/3.2.1: 12 files, 328.9KB
+==> Running `brew cleanup htop`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
